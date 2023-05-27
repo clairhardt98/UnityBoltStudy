@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ProjectilePickUp
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-144.531,"y":27.07145},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Main":null},"position":{"x":-20.0,"y":83.0},"guid":"46fbb4dc-1c69-4465-ad9c-de310725b0f9","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"type":"System.String","value":{"$content":"HasProjectile","$type":"System.String"},"defaultValues":{},"position":{"x":-292.0,"y":38.0},"guid":"b822a089-ecc1-4388-9e25-95fa37a50370","$version":"A","$type":"Bolt.Literal","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"Main","guid":"fd20c1af-de2c-4d61-ac82-585420978aeb","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9d419a31a73a3cc4bb41757bce846e6d, type: 2}

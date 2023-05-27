@@ -8,6 +8,7 @@ TagManager:
   - Projectile
   - Key
   - Enemy
+  - Objective
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Background
   - Enemies
   - PlayerInvincible
-  - 
+  - Projectiles
   - 
   - 
   - 
